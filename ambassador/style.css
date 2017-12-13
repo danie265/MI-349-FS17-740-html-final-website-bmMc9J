@@ -1,0 +1,45 @@
+body {
+	background: url(http://www.sidleach.com/m16.jpg);
+}
+
+h1 {
+	font-family: quicksand;
+	color: white;
+	text-align: center;
+	font-size: 90px;
+	font-weight: normal;
+}
+
+.content {
+	color: white;
+	font-family: quicksand;
+	padding: 130px;
+}
+
+.image {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+}
+
+@media (max-width: 750px) {
+	img {
+		width: 200px;
+		height: 200px;
+	}
+
+	body {
+		background: url(https://wciavoices.files.wordpress.com/2014/07/galaxy_history_revealed_by_the_hubble_space_telescope_goods-ers2.jpg)
+	}
+}
+
+/*http://www.sidleach.com/m16.jpg*/
